@@ -1,0 +1,76 @@
+.arkaplan{
+    background-color:rgb(242, 241, 243);
+    text-align: center;
+    width: 1500px;
+    height: 90px;
+}
+
+.temizle{
+    clear: both;
+}
+
+#arama_cubugu{
+    width: 300px;
+}
+
+#arama_cubugu2{
+    width: 150px;
+}
+
+.form{
+    padding-top: 5px;
+}
+
+.buton{
+    width: 147px;
+}
+
+/* bütün box yapılarında kullandığım position: relative özelliği;
+   kullandığımız alanı left, right, top, bottom etiketleri ile istediğimiz kadar hareket ettirmemizi sağlar.
+*/
+.box1{
+    background-color: #7EE5DA;
+    width: 550px;
+    height: 70px;
+    position: relative;
+    left: 197px;
+    padding-top: 10px;
+
+}
+
+.box2{
+    background-color: #70CCC2;
+    float: left;
+    width: 450px;
+    height: 70px;
+    position: relative;
+    left: 749px;
+    bottom: 80px;
+    padding-top: 10px;
+    font-size: small;
+}
+
+.box3{
+    background-color: #62B3AA;
+    float: left;
+    width: 505px;
+    height: 80px;
+    position: relative;
+    left: 752px;
+    bottom:80px;
+    padding-top: 0px;
+    font-size: smaller;
+}
+
+#buton2{
+    position: relative;
+    left: 188px;
+}
+article{
+    padding-top: 0px;
+}
+
+#son{
+    position: relative;
+    left: 190px;
+}
